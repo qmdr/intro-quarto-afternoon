@@ -1,0 +1,40 @@
+---
+title: "Grade Report"
+format: pdf
+params:
+  student: "Theo Daniel"
+---
+
+::: {.content-visible when-format="pdf"}
+Hello Instructors, here are your students grades:
+
+```{r}
+#| echo: false
+#| message: false
+library(dplyr)
+library(gt)
+read.csv("grades.csv") |>
+  gt()
+```
+
+:::
+
+```{r}
+#| echo: false
+#| message: false
+library(dplyr)
+grades <- read.csv("grades.csv") |>
+  filter(name == params$student)
+```
+
+Good work this semester `{r} params$student`!
+
+Below you'll find your grades on the main assessment items in the course. If you have any questions, please stop by my office hours.
+
+```{r}
+#| echo: false
+library(gt)
+gt(grades)
+```
+
+

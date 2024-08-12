@@ -1,0 +1,19 @@
+{
+  "hash": "6b872f2af91b4a28a175c616c462de92",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Grade Report\"\nformat: pdf\nparams:\n  student: \"Theo Daniel\"\n---\n\n\n\n::: {.content-visible when-format=\"pdf\"}\nHello Instructors, here are your students grades:\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\\begin{longtable}{lrrrrr}\n\\toprule\nname & year & midterm1 & midterm2 & final & overall \\\\ \n\\midrule\nRohan Prakesh & 2023 & 0.78 & 0.88 & 0.85 & 0.84 \\\\ \nSophie McDonald & 2023 & 0.90 & 0.61 & 0.85 & 0.79 \\\\ \nEdwin Choi & 2023 & 0.86 & 0.89 & 0.71 & 0.82 \\\\ \nTheo Daniel & 2023 & 0.97 & 0.92 & 0.95 & 0.95 \\\\ \nJulia Ahn & 2023 & 0.62 & 0.72 & 0.68 & 0.67 \\\\ \nShaya Hale & 2024 & 0.84 & 0.92 & 0.90 & 0.89 \\\\ \nCecilia Dominguez & 2024 & 0.87 & 0.78 & 0.88 & 0.84 \\\\ \nJackie Nair & 2024 & 0.93 & 0.91 & 0.90 & 0.91 \\\\ \nDavid Ockman & 2024 & 0.85 & 0.94 & 0.82 & 0.87 \\\\ \nTrey Williams & 2024 & 0.74 & 0.81 & 0.82 & 0.79 \\\\ \n\\bottomrule\n\\end{longtable}\n\n:::\n:::\n\n\n\n:::\n\n\n\n::: {.cell}\n\n:::\n\n\n\nGood work this semester Theo Daniel!\n\nBelow you'll find your grades on the main assessment items in the course. If you have any questions, please stop by my office hours.\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\\begin{longtable}{lrrrrr}\n\\toprule\nname & year & midterm1 & midterm2 & final & overall \\\\ \n\\midrule\nTheo Daniel & 2023 & 0.97 & 0.92 & 0.95 & 0.95 \\\\ \n\\bottomrule\n\\end{longtable}\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "\\usepackage{booktabs}\n\\usepackage{caption}\n\\usepackage{longtable}\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}
